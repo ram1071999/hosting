@@ -1,0 +1,171 @@
+*{
+	margin:0px;padding:0px;}
+header {	height:70px;
+			width:100%;
+			background-color:#3498db; 
+			color: #000;
+		}
+		
+.logo 	{
+			width:20%; 
+			float:left;
+		
+			}
+.logo img {
+		margin:5%;
+        
+         }
+nav {
+	width:70%;float: right;
+}
+nav ul li { width:15%;
+			float:left;
+			list-style: none;
+			text-align: center;
+			color: #fff;
+			line-height:70px;
+			cursor:pointer;
+			}
+			
+nav ul li a{ text-decoration: none;
+	         color:#FFF;
+	         font-size:18px;
+	        }
+nav ul li:hover{ background-color:#2980b9;
+                  color:#F00;
+              }
+
+.nav1 .img{ background-image:url(../img/header.jpg);
+            height:300px;
+            width:100%;
+            background-size:cove;
+			background-color:rgba(0,0,0,0.5);
+        }
+.nav1 .img h3{ text-align:center;
+	           font-size:60px;
+	            color:#fff;
+	             padding-top:80px;
+            	}
+
+.nav1 .img p{ text-align:center;
+	          font-size:30px;
+	          color:#FFF;
+	        }
+.Intro{ height:500px;
+	     width:100%;
+	   }
+.Intro .box{ height:400px;
+	          width:45%;
+	          float:left;
+	          margin-top:4%;
+	          margin:2%;
+	      }
+.Intro .box h3{ font-size:30px;
+	            margin-top:2%;
+	          }
+
+.Intro .box p{ font-size:20px;
+	           margin-top:3%;
+	           color:#666;
+	         }
+.Intro .box img{ height:400px;
+	             width:100%;
+	           }
+
+.Do{ height:600px;
+	 width:100%;
+	  margin-top:3%;
+	  background-color:#FFF;
+	}
+
+.Do .box{   height:600px;
+	        width:45%;
+	        float:left;
+	         margin:2%;
+                  
+        }
+
+.Do .box img{ height:500px;
+	           width:100%;
+	         }
+
+.Do .box h3{ font-size:30px;
+	          padding-top:4%;
+	       }
+
+
+.Do .box p{ font-size:20px;
+	         padding-top:2%;
+	         color:#666;align:justify;
+
+	     }
+.Do .box p button{ height:50px; width:30%;
+                     margin-left:5%; 
+					 margin-top:2%;
+					 background-color:rgb(246, 71, 71);
+                     color:#FFF;
+					 font-size:16px;
+					 }
+
+.Get_started{ background-color:#f5f6fa;
+              width: 100%;
+              color:#000;
+             height: 250px;
+             margin-top: 1%;
+            }
+
+.Get_started h3{ text-align: center;
+                 font-size:50px;
+                 padding-top: 6%;
+                }
+
+.Get_started button{ height:50px; width:12%; 
+                       margin-left:42%;
+					    margin-top:2%; 
+						 background-color:rgb(246, 71, 71);
+                   }
+
+.Get_started button p{ font-size:15px;
+                        margin-top: 4%;
+                        text-align:center;
+                         margin:1% 1%;
+                          color:#FFF;
+                           cursor:pointer;
+                       }
+
+.More{ height: 300px;
+      width: 100%;
+     background-color:steelblue;
+    }
+
+.More .box{ height: 200px;
+             width: 20%;
+              margin:2% 2%;
+               float: left;
+                margin-left:3%;
+                 color:#FFF;
+           }
+.More .box h3{ 
+                 font-size:25px;
+             }
+ 
+.More .box p{ 
+              font-size:17px;
+            }
+
+.Designer{ height:60px;
+            width:100%;
+            background-color:#000;
+          }
+ 
+.Designer h3{ float:left;
+               color:#FFF;
+               padding:1% 1% 1% 1%;
+               margin-left:3%;
+           }
+
+
+
+
+
+

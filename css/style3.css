@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px; 
+	padding: 0px;
+}
+
+header {	height:70px;
+			width:100%;
+			background-color:#3498db; 
+			color: #000;
+		}
+		
+.logo 	{
+			width:30%; 
+			float:left;
+		
+			}
+.logo img {
+		margin:5%;
+        
+         }
+nav {
+	width:70%;float: right;
+}
+nav ul li { width:15%;
+			float:left;
+			list-style: none;
+			text-align: center;
+			color: #fff;
+			line-height:70px;
+			cursor:pointer}
+			
+nav ul li a{text-decoration: none;
+              color:#FFF;
+			  font-size:18px;
+			  }
+			  
+nav ul li:hover{background-color:#2980b9; 
+                  color:#F00;
+				  }
+				  
+.nav1 .img{ background-image:url(../img/header.jpg);
+            height:300px;
+            width:100%;
+			 background-size:cover;
+			 	background-color:rgba(0,0,1,0.5);
+			 opacity:0.8;
+		 }
+		 
+			  
+.nav1 .img h3{text-align:center;
+               font-size:34px;
+			   color:#fff;
+			   padding-top:7%;
+			 
+             }
+			 
+.nav1 .img p{	text-align:center;
+              color:#fff;
+              font-size:20px;
+			 
+             }
+.detail{height:400px;
+        width:100%;
+              }
+.detail .box{height:400px;
+              width:45%;
+			  margin:2%;
+			  float:left;
+}
+.detail .box input{ height:80px;
+                      width:100%;
+					  margin:1%;
+                    }
+.detail .box h3{ font-size:25px;
+                 margin-top:1%;
+                  }
+.detail .box p{
+	             font-size:20px;
+				 margin-top:3%;
+               }
+.detail .box .box1{
+	               float:right;
+				   width:100%;
+                  }
+				  
+.detail .box .box1 p{
+	                  float:right;
+                  }
+.detail .box .box1 p input{
+	                        height:35px;
+							width:25%;
+                          }
+.detail .box .box1 p button{ 
+                              height:42px;
+							  width:44%;
+							  background-color:rgb(246, 71, 71);
+							  color:#FFF;
+                            }
+.Get_started{ background-color:#f5f6fa;
+             height:250px;width: 100%;
+			 color:#000;
+			 }
+.Get_started h3{text-align: center;
+                   font-size:50px;
+                 padding-top: 6%;
+				 }
+.Get_started button{  height:50px; width:12%;
+                      margin-left:40%;
+					    margin-top:2%;  
+						background-color:rgb(246, 71, 71);
+						 }
+.Get_started button p{ font-size:15px;
+                       margin-top: 4%;
+					        text-align:center;margin:1% 1%;
+							 color:#FFF;
+							 cursor:pointer;
+							  }
+.More{height: 250px;width: 100%;
+              background-color:steelblue;
+			  }
+.More .box{height: 200px;width: 20%;margin:2% 2%;float: left;margin-left:3%;color:#FFF;}
+.More .box h3{font-size:25px;}
+.More .box p{font-size:17px;}
+.Designer{height:60px;width:100%;background-color:#000;}
+.Designer h3{float:left;color:#FFF;padding:1% 1% 1% 1%;margin-left:3%;}
+				  
+						  
+
+			   

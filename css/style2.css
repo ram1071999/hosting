@@ -1,0 +1,131 @@
+@charset "utf-8";
+*{
+	padding:0px;
+	margin:0px;
+ }
+
+header {	height:70px;
+			width:100%;
+			background-color:#3498db; 
+			color: #000;
+		}
+		
+.logo 	{
+			width:30%; 
+			float:left;
+		
+			}
+.logo img {
+	height:60px;
+	width:70%;
+		margin:1%;
+        
+         }
+nav {
+	width:70%;float: right;
+}
+nav ul li { width:15%;
+			float:left;
+			list-style: none;
+			text-align: center;
+			color: #fff;
+			line-height:70px;
+			cursor:pointer}
+			
+nav ul li a{   text-decoration: none;
+               color:#FFF;
+			   font-size:18px;
+			   
+			}
+nav ul li:hover{     background-color:#2980b9;
+                     color:#F00;
+		        }
+.Our{   height:650px; 
+        width:100%;
+		
+		
+     }
+.box{ 
+      height:50px;
+           width:100%;
+		   padding-top:2%;
+		
+	 }
+.box h3{   text-align:center;
+           font-size:24px;
+		   }	 
+   .Our .box1{   height:300px;
+                 width:31.3%;
+                 float:left;
+                 background-color:#66C;
+			     margin:1% 1%;
+			 
+			
+            }
+.Our .box1 img{height:300px;
+               width:100%;
+               }
+.Get_started{ background-color:#f5f6fa;
+              width: 100%;
+              color:#000;
+              font-family: cursive;
+             height: 250px;
+            }
+
+.Get_started h3{ text-align: center;
+                 font-size:50px;
+                 padding-top: 6%;
+                }
+
+.Get_started button{
+                     text-align: center;
+                    height:50px; 
+
+                     margin-left:43%;
+                     margin-top:2%;
+                     background-color:cornflowerblue;
+                   }
+
+.Get_started button p{ font-size:13px;
+                        margin-top: 4%;
+                        text-align:center;
+                         margin:1% 1% 1% 1%;
+                          color:#FFF;
+                           cursor:pointer;
+                       }
+
+.More{ height: 250px;
+      width: 100%;
+      background-color:steelblue;
+    
+    }
+
+.More .box{ height: 150px;
+             width: 20%;
+              margin:2% 2%;
+               float: left;
+                margin-left:3%;
+                 color:#FFF;
+           }
+.More .box h3{ 
+                font-size:20px;
+             }
+ 
+.More .box p{ 
+              font-size:17px;
+            }
+
+.Designer{ height:50px;
+            width:100%;
+            background-color:#000;
+          }
+ 
+.Designer h3{ float:left;
+               margin-top:1%;
+               margin-left:3%;
+               color:#FFF;
+           
+           }
+
+
+
